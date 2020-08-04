@@ -2,7 +2,7 @@ def square_array(array)
   squares = []
   
   array.collect do |number|
-    squares << (number * number)
+    squares.push(number * number)
   end
 end
 
