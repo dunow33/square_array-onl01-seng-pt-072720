@@ -1,11 +1,9 @@
 def square_array(array)
   squares = []
   
-  array. do |number|
+  array.collect do |number|
     squares << (number * number)
   end
-  
-  squares
 end
 
 arraySquares = [2, 3, 5, 9]
