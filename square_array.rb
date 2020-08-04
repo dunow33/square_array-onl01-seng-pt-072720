@@ -4,8 +4,10 @@ def square_array(array)
   array.collect do |number|
     squares.push(number * number)
   end
+  
+  puts squares
 end
 
 arraySquares = [2, 3, 5, 9]
 
-puts square_array(arraySquares)
+square_array(arraySquares)
