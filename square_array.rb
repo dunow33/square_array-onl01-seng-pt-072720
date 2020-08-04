@@ -10,4 +10,4 @@ end
 
 arraySquares = [2, 3, 5, 9]
 
-puts square_array
+puts square_array(arraySquares)
